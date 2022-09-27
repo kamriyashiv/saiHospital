@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+::selection{
+	background-color:green;
+	color:white;
+}
+.container{
+	margin:0 auto;
+	width:85%;
+}
+.row{
+	content:"";
+	clear:both;
+	display:table;
+}
+.sticky{
+	position:sticky;
+	top:0px;
+	z-index:999!important;
+	background-color:white;
+}
+
+.col-5{
+	width:20%;
+	float:left;
+}
+.col-4{
+	width:25%;
+	float:left;
+}
+.col-3{
+	width:33.3%;
+	float:left;
+}
+.col-2{
+	width:50%;
+	float:left;
+}
+/*---code-block---*/
+.btn{
+	background-color: green;
+    border: none;
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 8px;
+    color: white;
+}
+
+
+/*---Normal-Css---*/
+.mainHeader{
+	padding: 26px 0px;
+    box-shadow: 0px 0px 9px 0px grey;
+}
+.HeaderGrid,
+.mainSlider,
+.MianFeature,
+.mainAbout,
+.aboutDr,
+.footerCol{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.navList ul{
+	list-style:none;
+}
+.navList ul>li{
+	display:inline-block;
+	padding:10px 15px;
+	font-size:18px;
+}
+
+.navList ul>li>a:hover{
+	border-bottom:4px solid red;
+	transition:1s;	
+	color:red;
+}
+.navList ul>li>a{
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+	transition:1s;
+	border-bottom:4px solid white;
+}
+
+.mainContent h1,b{
+	font-size:50px;
+	font-weight:800;
+	font-family:system-ui;
+}
+.mainContent p{
+	font-size:22px;
+}
+
+.colorRed{
+	color:red;
+}  
+.FeatureCard h2{
+	text-align:center;
+	padding:10px 0px;
+}
+.FeatureCard p{
+	padding:10px 0px;
+}
+.FeatureCard{
+	box-shadow:0px 0px 10px 0px gray;
+	margin:10px;
+	padding:10px 25px;
+	border-bottom:5px solid green;
+	border-radius:10px;
+}
+#footLogo img, .logoBox img{
+	width:100%;
+}
+#footLogo{
+	width:47%;
+}
+.logoBox{
+	width:14%;
+}
+/*---about--css---*/
+
+.mainAbout{
+	 margin:30px 0px;
+	 align-items:self-start;
+}
+.AboutImg{
+	width:50%;
+	padding:30px;
+}
+.AboutImg img:hover{
+	border-color: red green green red;
+	transition:border-color 1s;
+	filter: brightness(0.9);
+}
+.AboutImg img{
+	width:100%;
+	border-style:solid;
+	border-width:3px;
+	border-color: green red red green;
+	border-radius:5px;
+	transition:border-color 1s;
+}
+.AboutText h2{
+	font-size:35px;
+	text-transform:uppercase;
+	padding:20px 0px;
+}
+.AboutText{
+	width:50%;
+	margin-top:20px;
+}
+.AboutText p{
+	line-height:1.5;
+}
+.AboutText p:last-child{
+	margin-top:10px;
+}
+.aboutDr{
+	justify-content: flex-start;
+}
+.drPic{
+	width:8%;
+}
+.drPic img{
+	width:100%;
+}
+
+/*---footer css---*/
+.mainFooter{
+	background-color:black;
+	color:white;
+	padding:30px 20px 10px 20px;
+	border-top:5px solid green;
+}
+.FootAbout{
+	width:30%;
+	
+}
+.footerCol{
+	 align-items:self-start;
+}
+.mainFooter h3{
+	padding:15px 0px;
+}
+#footMenu a{
+	color:white;
+	text-decoration:none;
+}
+#footMenu,#footLocation{
+	line-height:2.0;
+}
+#footLogo,#footMenu,#footLocation{
+	padding:15px 0px;
+}
+.copyright a{
+	color:red;
+}
+.copyright{
+	border-top:1px solid green;
+	padding:10px 0px;
+	text-align:center;
+}
+
+/*---call-cantact---*/
+
+.mainCall{
+	background-color:red;
+	color:white;
+	padding:20px 0px;
+	text-align:center;
+}
+.CallContent h3{
+	font-size:30px;
+}
+.extraSize{
+	font-size:40px;
+}
+.CallArea p{
+	color:black;
+	font-weight:800;
+}
+
+.detailsBox{
+	text-align:center;
+}
+
+/*-----main--treatment-----*/
+.SubHeading h2{
+	text-align:center;
+	color:red;
+	font-weight:600;
+	border-bottom:10px solid green;
+	padding:5px 0px;
+}
+.tB{
+	padding-bottom:20px;
+}
+.tB h3{
+	padding:10px  0px;
+}
+.tBox{
+	box-shadow: 0px 0px 6px 1px #80808069;
+	padding:10px;
+	text-align:center;
+	border-radius:10px;
+	margin:15px!important;
+	width:22%;
+	border-bottom:2px solid green;
+}
+.tTitle h3{
+	padding:20px 0px;
+}
+.tBtn a{
+	text-decoration:none;
+}
+.tBtn{
+	text-align:center;
+	margin:5px 0px 20px 0px;
+}
+.tBox img{
+	width:100%!important;
+}
+.treatment{
+	display:flex;
+	margin:40px 20px;
+	flex-wrap:wrap;
+}
+.slick-prev::before,.slick-next::before{
+	color:red!important;
+}
+
+/*------contact--us---*/
+.Ctext b{
+	text-transform:uppercase;
+	font-size:30px;
+}
+.Ctext {
+	text-align:center;
+	padding:20px 0px;
+	font-size:20px!important;
+	border-bottom:5px solid green;
+}
+.Maincontact{
+	padding:50px 0px;
+}
+.locationBox iframe{
+	width:100%;
+	height:400px;
+	padding:20px;
+	border: inside 2px solid red;
+}
+
+/*-----contact--form--------*/
+.mainForm{
+	box-shadow:0px 0px 0px 0px gray;
+	width:50%;
+	padding:50px;
+}
+.mainForm label,.mainForm input{
+	display:block;
+	font-weight:600;
+	padding:5px 0px;
+}
+.mainForm input,.mainForm textarea,.mainForm select{
+	width:100%;
+}    
+.mainCBox {
+	display:flex;
+}
+.mainForm h2{
+	text-align:center;
+	padding:10px;
+} 
+.BtnContact a,.mainForm button{
+	width:30%;
+	padding:10px 20px;
+	background-color:green;
+	color:white;
+	border:none;
+	border-radius:8px;
+}
+.BtnContact a{
+	display:block;
+	width:50%;
+	margin:20px auto;
+	text-decoration:none;
+}
+.address {
+	 border:1px solid gray;
+	 padding:20px;
+	 text-align:center;
+	 margin-top:60px;
+}
+.mainForm{
+	margin:30px 0px;
+	box-shadow:0px 0px 30px 0px gray;
+	border-radius:10px;
+}
+
+/*-----mainServicess---*/
+.maiServices h1{
+	text-align:center;
+	padding:20px;
+}
+
+.TreatMentArea{
+	height:500px;
+	width:100%;
+	overflow:hidden;
+}
+.toggleBTN{
+	color:black;
+	display:none;
+}
+.none{
+	display:block!important; 	
+	
+}
+
+
+@keyframes fade{
+	0%{
+		opacity:0;
+		height:0px;
+		
+	}
+	100%{
+		opacity:1;
+		height:250px;
+	}
+}
+
+
+

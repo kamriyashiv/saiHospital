@@ -1,0 +1,70 @@
+[ 
+	{
+	 "id":1,
+	 "title":"Intensive Care Unit - ICU",
+	 "description":"Intensive care refers to the specialised treatment given to patients who are acutely unwell and require critical medical care. An intensive care unit (ICU) provides the critical care and life support for acutely ill and injured patients.",
+	 "thumbnail":"icu-treatment-sai-hospital.png"
+	},
+	{
+	 "id":2,
+	 "title":"General and Laparoscopic Surgery",
+	 "description":"Laparoscopy is a type of surgical procedure that allows a surgeon to access the inside of the abdomen (tummy) and pelvis without having to make large incisions in the skin. This procedure is also known as keyhole surgery or minimally invasive surgery.",
+	 "thumbnail":"General-and Laparoscopic-Surgery.png"
+	},
+	{
+	 "id":3,
+	 "title":"Fracture & Trauma care",
+	 "description":"Look at the circumstances of the injury. If a patient suffered a hip fracture during an automobile accident, the fracture is likely traumatic.",
+	 "thumbnail":"trama-care.png"
+	},
+	{
+	 "id":4,
+	 "title":"Nephrology Dialysis",
+	 "description":"The Nephrology Dialysis Transplantation is a monthly peer-reviewed medical journal. It is published by Oxford University Press on behalf of the European Renal Association - European Dialysis and Transplant Association",
+	 "thumbnail":"Nephrology-Dialysis.png"
+	},
+	{
+	 "id":5,
+	 "title":"Podiatrists",
+	 "description":"Podiatry or podiatric medicine is a branch of medicine devoted to the study, diagnosis, medical and surgical treatment of disorders of the foot, ankle, and lower extremity",
+	 "thumbnail":"Podiatrists.png"
+	},
+	{
+	 "id":6,
+	 "title":"Gynecologist",
+	 "description":"Gynaecology or gynecology (see spelling differences) is the area of medicine that involves the treatment of women's diseases.",
+	 "thumbnail":"Gynecologist .png"
+	},
+	{
+	 "id":7,
+	 "title":"Neurology and Neorosurgery",
+	 "description":"Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord",
+	 "thumbnail":"neourology.png"
+	},
+	{
+	 "id":8,
+	 "title":"Urology",
+	 "description":"Urology is a branch of medicine that focuses on medical conditions of the male and female urinary tract systems. The urologist is a medical professional that specializes in the urinary system. In ancient times, doctors used to examine the urine of a patient for clues about their illness.",
+	 "thumbnail":"urology.png"
+	},
+	{
+	 "id":9,
+	 "title":"Urology",
+	 "description":"Urology is a branch of medicine that focuses on medical conditions of the male and female urinary tract systems. The urologist is a medical professional that specializes in the urinary system. In ancient times, doctors used to examine the urine of a patient for clues about their illness.",
+	 "thumbnail":"urology.png"
+	},
+	{
+	 "id":10,
+	 "title":"Orthopedics",
+	 "description":"Orthopedic surgery or orthopedics, is the branch of surgery concerned with conditions involving the musculoskeletal system. Orthopedic surgeons use both surgical and nonsurgical means to treat musculoskeletal trauma, spine diseases, sports injuries, degenerative diseases, infections, tumors, and congenital disorders.",
+	 "thumbnail":"Orthopedics.png"
+	},
+	{
+	 "id":11,
+	 "title":"Ambulace facilities",
+	 "description":"An ambulance is a medically equipped vehicle which transports patients to treatment facilities, such as hospitals",
+	 "thumbnail":"Ambulace.png"
+	}
+]
+
+ 

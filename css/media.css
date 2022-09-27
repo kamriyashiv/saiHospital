@@ -1,0 +1,102 @@
+/*---mobile screen---*/
+@media screen and (min-width:360px) and (max-width:640px){
+	.HeaderGrid,.mainSlider,.MianFeature,.mainAbout,.treatment,.footerCol,
+	.navList ul>li,.mainCBox{
+		display: block;
+	} 
+	.HeroImg img,.FootAbout,.mainForm {
+		width:100%;
+	}
+	.navList,#bt{
+		display:none; 	
+	}
+	.logoBox{
+		width:60%;
+	}
+	.mainContent{
+		text-align:center;
+		margin-top:20px;
+	}
+	.FeatureCard{
+		margin:10px 0px;
+	}
+	.AboutImg,.AboutText  {
+    width: 100%;
+    padding: 0px;
+	}
+	.drPic {
+		width:20%;
+	}
+	.tBox{
+		margin:10px 0px!important;
+		width:100%;
+	}
+	.CallContent h3{
+		font-size:17px;
+	}
+	.mainForm button{
+		width:50%;
+	}
+	.BtnContact a {
+		width:100%;
+	}
+	.mainHeader{
+		position:relative;
+	}
+	.toggleBTN{
+		display:block;
+	}
+	.toggleBTN button{
+		position: absolute;
+		right: 6px;
+		/* padding: 20px; */
+		font-size: 37px;
+		padding: 4px 16px;
+		border-radius: 8px;
+		border: 1px solid green;
+	}
+}
+
+/*---tablet--screen---*/
+
+@media screen and (min-width:768px) and (max-width:1024px){
+	 .HeroImg img {
+		width:375px;
+	}
+	.mainSlider{
+		margin:15px 0px;
+	}
+	.navList ul>li{
+		padding:10px 8px;
+	}
+	.FeatureCard{
+		height:322px;
+		padding:10px 10px;
+	}
+	.mainAbout{
+		display:block;
+	}
+	.AboutImg,.AboutText  {
+    width: 100%;
+    padding: 0px;
+	}
+	.tBox{
+		width:20%;
+	}
+	.tTitle h3 {
+    padding: 7px 0px;
+    font-size: 16px;
+	}
+	.copyright{
+		margin:20px 0px;
+	}
+	.BtnContact a {
+		width:85%;
+	}
+	 .mainForm button{
+		 width:45%;
+	 }
+	 .mainForm{
+		 padding:20px;
+	 }
+}
